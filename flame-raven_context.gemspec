@@ -31,6 +31,7 @@ Gem::Specification.new do |spec|
 
 	spec.add_runtime_dependency 'alt_memery', '~> 2.0'
 	spec.add_runtime_dependency 'gorilla_patch', '~> 4.0'
+	spec.add_runtime_dependency 'sentry-raven', '~> 3.0'
 
 	spec.add_development_dependency 'pry-byebug', '~> 3.9'
 
