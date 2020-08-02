@@ -56,7 +56,7 @@ module MyApplication
 
     def not_found
       unless request.bot?
-        request_context = Raven::RequestContext.new(:not_found, controller: self)
+        request_context = Flame::RavenContext.new(:not_found, controller: self)
         Raven.capture_message(*request_context.exception_with_context)
       end
 
@@ -64,7 +64,7 @@ module MyApplication
     end
 
     def server_error(exception)
-      request_context = Raven::RequestContext.new(:server, controller: self, exception: exception)
+      request_context = Flame::RavenContext.new(:server, controller: self, exception: exception)
       Raven.capture_exception(*request_context.exception_with_context)
 
       super
@@ -76,7 +76,7 @@ module MyApplication
     ## inside `else` of `if (form_outcome = @form.run).success?` condition.
     def capture_validation_errors(errors)
       Raven.capture_message(
-        *Raven::RequestContext.new(
+        *Flame::RavenContext.new(
           :validation_errors,
           controller: self,
           form_class: @form.class,
