@@ -2,6 +2,10 @@
 
 ## master (unreleased)
 
+## 0.1.2 (2020-09-21)
+
+*   Fix `sentry-raven` gem requirement.
+
 ## 0.1.1 (2020-08-21)
 
 *   Require `raven`.
