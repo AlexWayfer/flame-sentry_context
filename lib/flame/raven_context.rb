@@ -4,7 +4,7 @@ require_relative 'raven_context/version'
 
 require 'gorilla_patch/deep_dup'
 require 'memery'
-require 'raven'
+require 'sentry-raven'
 
 module Flame
 	## Class for request context initialization
