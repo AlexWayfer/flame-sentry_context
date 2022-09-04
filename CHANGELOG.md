@@ -1,8 +1,9 @@
 # Changelog
 
-## master (unreleased)
+## Unreleased
 
 *   Switch to `sentry-ruby`, rename to `flame-sentry_context`.
+*   Rename `master` git branch to `main`.
 
 ## 0.1.2 (2020-09-21)
 

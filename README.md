@@ -1,11 +1,11 @@
 # Flame Sentry Context
 
 [![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/AlexWayfer/flame-sentry_context?style=flat-square)](https://cirrus-ci.com/github/AlexWayfer/flame-sentry_context)
-[![Codecov branch](https://img.shields.io/codecov/c/github/AlexWayfer/flame-sentry_context/master.svg?style=flat-square)](https://codecov.io/gh/AlexWayfer/flame-sentry_context)
+[![Codecov branch](https://img.shields.io/codecov/c/github/AlexWayfer/flame-sentry_context/main.svg?style=flat-square)](https://codecov.io/gh/AlexWayfer/flame-sentry_context)
 [![Code Climate](https://img.shields.io/codeclimate/maintainability/AlexWayfer/flame-sentry_context.svg?style=flat-square)](https://codeclimate.com/github/AlexWayfer/flame-sentry_context)
 [![Depfu](https://img.shields.io/depfu/AlexWayfer/flame-sentry_context?style=flat-square)](https://depfu.com/repos/github/AlexWayfer/flame-sentry_context)
-[![Inline docs](https://inch-ci.org/github/AlexWayfer/flame-sentry_context.svg?branch=master)](https://inch-ci.org/github/AlexWayfer/flame-sentry_context)
-[![License](https://img.shields.io/github/license/AlexWayfer/flame-sentry_context.svg?style=flat-square)](https://github.com/AlexWayfer/flame-sentry_context/blob/master/LICENSE.txt)
+[![Inline docs](https://inch-ci.org/github/AlexWayfer/flame-sentry_context.svg?branch=main)](https://inch-ci.org/github/AlexWayfer/flame-sentry_context)
+[![License](https://img.shields.io/github/license/AlexWayfer/flame-sentry_context.svg?style=flat-square)](https://github.com/AlexWayfer/flame-sentry_context/blob/main/LICENSE.txt)
 [![Gem](https://img.shields.io/gem/v/flame-sentry_context.svg?style=flat-square)](https://rubygems.org/gems/flame-sentry_context)
 
 Helper class for [Sentry](https://sentry.io/) reports
@@ -44,7 +44,7 @@ Default loggers:
 
 You can change them via `Flame::SentryContext.loggers` reader.
 
-Example from [Flame application template](https://github.com/AlexWayfer/flame-cli/tree/master/template):
+Example from [Flame application template](https://github.com/AlexWayfer/flame-cli/tree/main/template):
 
 ```ruby
 require 'flame/sentry_context'
