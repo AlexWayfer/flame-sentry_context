@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 0.2.0 (2022-09-04)
+
 *   Switch to `sentry-ruby`, rename to `flame-sentry_context`.
 *   Drop Ruby 2.5 support.
 *   Add Ruby 3.1 for CI.
