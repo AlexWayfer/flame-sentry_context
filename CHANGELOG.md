@@ -3,6 +3,7 @@
 ## Unreleased
 
 *   Switch to `sentry-ruby`, rename to `flame-sentry_context`.
+*   Drop Ruby 2.5 support.
 *   Rename `master` git branch to `main`.
 
 ## 0.1.2 (2020-09-21)
