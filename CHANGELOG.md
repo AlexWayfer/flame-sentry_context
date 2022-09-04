@@ -2,6 +2,8 @@
 
 ## master (unreleased)
 
+*   Switch to `sentry-ruby`, rename to `flame-sentry_context`.
+
 ## 0.1.2 (2020-09-21)
 
 *   Fix `sentry-raven` gem requirement.

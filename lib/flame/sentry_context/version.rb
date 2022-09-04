@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Flame
-	class RavenContext
-		VERSION = '0.1.2'
+	class SentryContext
+		VERSION = '0.2.0'
 	end
 end
