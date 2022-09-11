@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 0.3.0 (2022-09-12)
+
+*   Change default `user` context to `nil`.
+
 ## 0.2.0 (2022-09-04)
 
 *   Switch to `sentry-ruby`, rename to `flame-sentry_context`.
