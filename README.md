@@ -87,7 +87,7 @@ end
 You can pass `:user` into initialization or redefine `user` getter globally via:
 
 ```ruby
-## here is default value in example
+## By default it's `nil`
 Flame::SentryContext.user_block = -> { @controller&.send(:authenticated)&.account }
 ```
 

@@ -40,7 +40,7 @@ module Flame
 			attr_writer :user_block
 
 			def user_block
-				@user_block ||= -> { @controller&.send(:authenticated)&.account }
+				@user_block ||= -> {}
 			end
 
 			memoize def types
