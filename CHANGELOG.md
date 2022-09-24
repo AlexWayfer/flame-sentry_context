@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## 0.3.1 (2022-09-24)
+
+*   Allow `gorilla_patch` version 5.
+*   Improve CI.
+
 ## 0.3.0 (2022-09-12)
 
 *   Change default `user` context to `nil`.
