@@ -10,7 +10,7 @@ end
 
 group :development, :toys do
 	gem 'gem_toys', '~> 0.12.0'
-	gem 'toys', '~> 0.14.2'
+	gem 'toys', '~> 0.15.1'
 end
 
 group :development, :test do
