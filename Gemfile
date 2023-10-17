@@ -13,8 +13,8 @@ group :development, :audit do
 end
 
 group :development, :toys do
-	gem 'gem_toys', '~> 0.12.0'
-	gem 'toys', '~> 0.14.2'
+	gem 'gem_toys', '~> 0.13.0'
+	gem 'toys', '~> 0.15.0'
 end
 
 group :development, :test do
