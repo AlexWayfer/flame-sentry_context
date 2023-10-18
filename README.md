@@ -3,7 +3,6 @@
 [![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/AlexWayfer/flame-sentry_context?style=flat-square)](https://cirrus-ci.com/github/AlexWayfer/flame-sentry_context)
 [![Codecov branch](https://img.shields.io/codecov/c/github/AlexWayfer/flame-sentry_context/main.svg?style=flat-square)](https://codecov.io/gh/AlexWayfer/flame-sentry_context)
 [![Code Climate](https://img.shields.io/codeclimate/maintainability/AlexWayfer/flame-sentry_context.svg?style=flat-square)](https://codeclimate.com/github/AlexWayfer/flame-sentry_context)
-[![Depfu](https://img.shields.io/depfu/AlexWayfer/flame-sentry_context?style=flat-square)](https://depfu.com/repos/github/AlexWayfer/flame-sentry_context)
 [![Inline docs](https://inch-ci.org/github/AlexWayfer/flame-sentry_context.svg?branch=main)](https://inch-ci.org/github/AlexWayfer/flame-sentry_context)
 [![License](https://img.shields.io/github/license/AlexWayfer/flame-sentry_context.svg?style=flat-square)](https://github.com/AlexWayfer/flame-sentry_context/blob/main/LICENSE.txt)
 [![Gem](https://img.shields.io/gem/v/flame-sentry_context.svg?style=flat-square)](https://rubygems.org/gems/flame-sentry_context)
