@@ -24,7 +24,7 @@ group :development, :test do
 end
 
 group :development, :lint do
-	gem 'rubocop', '~> 1.62.0'
+	gem 'rubocop', '~> 1.63.0'
 	gem 'rubocop-performance', '~> 1.0'
-	gem 'rubocop-rspec', '~> 2.27.0'
+	gem 'rubocop-rspec', '~> 2.29.0'
 end
