@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
 
 	spec.required_ruby_version = '>= 3.0', '< 4'
 
-	spec.add_runtime_dependency 'alt_memery', '~> 2.0'
-	spec.add_runtime_dependency 'gorilla_patch', '>= 4.0', '< 6'
-	spec.add_runtime_dependency 'sentry-ruby', '~> 5.4'
+	spec.add_dependency 'alt_memery', '~> 2.0'
+	spec.add_dependency 'gorilla_patch', '>= 4.0', '< 6'
+	spec.add_dependency 'sentry-ruby', '~> 5.4'
 end
