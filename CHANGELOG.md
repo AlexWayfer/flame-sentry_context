@@ -2,6 +2,16 @@
 
 ## Unreleased
 
+## 1.0.0 (2026-02-20)
+
+*   Drop Ruby 2.6, 2.7, 3.0 and 3.1 support.
+*   Add Ruby 3.2, 3.3, 3.4 and 4.0 support.
+*   Update Sentry runtime dependency.
+*   Update `alt_memery` and `gorilla_patch` runtime dependencies.
+*   Update development dependencies.
+*   Resolve new RuboCop offenses.
+*   Improve CI config.
+
 ## 0.3.1 (2022-09-24)
 
 *   Allow `gorilla_patch` version 5.
