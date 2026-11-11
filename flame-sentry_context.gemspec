@@ -34,5 +34,5 @@ Gem::Specification.new do |spec|
 
 	spec.add_dependency 'alt_memery', '~> 3.0'
 	spec.add_dependency 'gorilla_patch', '~> 6.0'
-	spec.add_dependency 'sentry-ruby', '~> 6.3'
+	spec.add_dependency 'sentry-ruby', '~> 7.0'
 end
